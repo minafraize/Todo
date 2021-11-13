@@ -1,0 +1,31 @@
+/* Custom variables */
+:root {
+  --background-color: #ecf0f1;
+}
+
+/* General */
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f2f7;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
